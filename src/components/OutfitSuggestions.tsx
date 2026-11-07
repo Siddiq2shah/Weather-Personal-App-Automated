@@ -1,4 +1,5 @@
 import { Sparkles } from "lucide-react";
+import { PhotoImage } from "@/components/PhotoImage";
 import type { Outfit } from "@/lib/outfits";
 
 interface OutfitSuggestionsProps {
@@ -22,10 +23,9 @@ export function OutfitSuggestions({ outfits, temp }: OutfitSuggestionsProps) {
             className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 transition duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-slate-700 dark:bg-slate-800"
           >
             <div className="relative aspect-[4/5] overflow-hidden bg-slate-200 dark:bg-slate-700">
-              <img
+              <PhotoImage
                 src={outfit.image}
                 alt={`${outfit.name} outfit idea`}
-                loading="lazy"
                 className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <span className="absolute left-3 top-3 rounded-full bg-white/95 px-2.5 py-1 text-xs font-semibold text-slate-900 shadow-sm">

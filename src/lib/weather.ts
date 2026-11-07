@@ -196,7 +196,8 @@ function fromForecast(location: Location, current: CurrentResponse, forecast: Fo
       description: condition.description,
     },
     daily,
-    forecastNote: "Showing the next five days. A full seven-day outlook needs a One Call plan on OpenWeatherMap.",
+    forecastNote:
+      "Free forecast. Today and the last day only include the hours still forecast; a full seven-day outlook needs a One Call plan.",
     timezoneOffset: offset,
   };
 }

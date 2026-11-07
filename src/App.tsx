@@ -7,6 +7,7 @@ import { ForecastStrip } from "@/components/ForecastStrip";
 import { HomeTemperatureCard } from "@/components/HomeTemperatureCard";
 import { LocationSearch } from "@/components/LocationSearch";
 import { OutfitSuggestions } from "@/components/OutfitSuggestions";
+import { PhotoImage } from "@/components/PhotoImage";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { useTheme } from "@/hooks/useTheme";
 import { useWeather } from "@/hooks/useWeather";
@@ -54,8 +55,8 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 transition-colors duration-500 dark:bg-slate-950 dark:text-slate-100">
       <header className="relative z-30">
-        <div className="absolute inset-0 -z-10 overflow-hidden">
-          <img src={HERO_IMAGE_URL} alt="" aria-hidden="true" className="h-full w-full object-cover" />
+        <div className="absolute inset-0 -z-10 overflow-hidden bg-gradient-to-br from-sky-600 via-sky-800 to-sky-950">
+          <PhotoImage src={HERO_IMAGE_URL} alt="" loading="eager" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-sky-950/70 via-sky-900/50 to-slate-50 dark:to-slate-950" />
         </div>
 
