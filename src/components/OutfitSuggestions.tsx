@@ -26,7 +26,7 @@ export function OutfitSuggestions({ outfits, temp }: OutfitSuggestionsProps) {
               <PhotoImage
                 src={outfit.image}
                 alt={`${outfit.name} outfit idea`}
-                className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <span className="absolute left-3 top-3 rounded-full bg-white/95 px-2.5 py-1 text-xs font-semibold text-slate-900 shadow-sm">
                 Look {index + 1}

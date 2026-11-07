@@ -17,7 +17,7 @@ export function ForecastStrip({ days, note, onSelectDay }: ForecastStripProps) {
       </div>
       <p className="mt-1 text-sm text-slate-300">Select a day to see its hour-by-hour weather</p>
 
-      <ul className="mt-5 flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2">
+      <ul className="-mx-1 mt-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-1 py-2">
         {days.map((day, index) => (
           <li key={day.date} className="flex min-w-[7.5rem] flex-1 snap-start">
             <button

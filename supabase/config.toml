@@ -1,2 +1,5 @@
 [functions.chat]
 verify_jwt = true
+
+[functions.morning-text]
+verify_jwt = false
