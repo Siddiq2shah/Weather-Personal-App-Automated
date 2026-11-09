@@ -11,12 +11,10 @@ import { PhotoImage } from "@/components/PhotoImage";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { useTheme } from "@/hooks/useTheme";
 import { useWeather } from "@/hooks/useWeather";
+import { heroImageForCondition } from "@/lib/weatherImages";
 import { recommendOutfits } from "@/lib/outfits";
 import { EDISON_LOCATION, isSameLocation, type Location } from "@/lib/locations";
 import { hourlyForDay, isPrecipitation, summarizeWeatherForChat, type DailyForecast } from "@/lib/weather";
-
-const HERO_IMAGE_URL =
-  "https://images.pexels.com/photos/36439636/pexels-photo-36439636.jpeg?auto=compress&cs=tinysrgb&h=650&w=940";
 
 function LoadingCards() {
   return (
@@ -49,6 +47,7 @@ function App() {
     setSelectedDay(null);
     setActiveLocation(location);
   }, []);
+  const heroImageUrl = snapshot ? heroImageForCondition(snapshot.current.conditionId) : heroImageForCondition(800);
   const isHomeActive = isSameLocation(activeLocation, EDISON_LOCATION);
   const homeSnapshot = homeState.status === "ready" ? homeState.data : null;
 
@@ -56,7 +55,7 @@ function App() {
     <div className="min-h-screen bg-slate-50 text-slate-900 transition-colors duration-500 dark:bg-slate-950 dark:text-slate-100">
       <header className="relative z-30">
         <div className="absolute inset-x-0 top-0 bottom-24 -z-10 overflow-hidden bg-gradient-to-br from-sky-600 via-sky-800 to-sky-950">
-          <PhotoImage src={HERO_IMAGE_URL} alt="" loading="eager" className="h-full w-full object-cover" />
+          <PhotoImage src={heroImageUrl} alt="" loading="eager" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-sky-950/70 via-sky-900/50 to-slate-50 dark:to-slate-950" />
         </div>
 
