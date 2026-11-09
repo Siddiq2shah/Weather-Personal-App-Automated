@@ -16,7 +16,7 @@ import { EDISON_LOCATION, isSameLocation, type Location } from "@/lib/locations"
 import { hourlyForDay, isPrecipitation, summarizeWeatherForChat, type DailyForecast } from "@/lib/weather";
 
 const HERO_IMAGE_URL =
-  "https://images.pexels.com/photos/39837568/pexels-photo-39837568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940";
+  "https://images.pexels.com/photos/36439636/pexels-photo-36439636.jpeg?auto=compress&cs=tinysrgb&h=650&w=940";
 
 function LoadingCards() {
   return (

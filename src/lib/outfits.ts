@@ -8,29 +8,29 @@ export interface Outfit {
 
 const PHOTO = {
   hot: [
-    "https://images.pexels.com/photos/9480920/pexels-photo-9480920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/27468912/pexels-photo-27468912.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/12105793/pexels-photo-12105793.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/18194610/pexels-photo-18194610.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/37565108/pexels-photo-37565108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/17981366/pexels-photo-17981366.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   ],
   warm: [
-    "https://images.pexels.com/photos/8989603/pexels-photo-8989603.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/1346186/pexels-photo-1346186.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/6218324/pexels-photo-6218324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/21390385/pexels-photo-21390385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/16840789/pexels-photo-16840789.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/16449429/pexels-photo-16449429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   ],
   mild: [
-    "https://images.pexels.com/photos/14097798/pexels-photo-14097798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/28765912/pexels-photo-28765912.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/13911221/pexels-photo-13911221.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/36123710/pexels-photo-36123710.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/5794507/pexels-photo-5794507.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/17511925/pexels-photo-17511925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   ],
   cool: [
-    "https://images.pexels.com/photos/14491335/pexels-photo-14491335.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/6995898/pexels-photo-6995898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/1374128/pexels-photo-1374128.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/28664820/pexels-photo-28664820.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/18822872/pexels-photo-18822872.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/40386098/pexels-photo-40386098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   ],
   cold: [
-    "https://images.pexels.com/photos/15161965/pexels-photo-15161965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/1799895/pexels-photo-1799895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "https://images.pexels.com/photos/30477033/pexels-photo-30477033.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/9388799/pexels-photo-9388799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/34189312/pexels-photo-34189312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://images.pexels.com/photos/30403675/pexels-photo-30403675.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   ],
 };
 
